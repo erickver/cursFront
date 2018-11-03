@@ -1,0 +1,86 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: chocolate
+}
+.header{
+    display: flex;
+    background-color: chocolate;
+}
+.LOGO{
+    height: 50px;
+    width: 70px;
+    margin-left: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+   
+}
+.menu{
+    margin-left: 150px;
+    margin-top: 20px;
+z-index: 100;
+}
+
+.menu ul{
+    display: flex;
+
+}
+.menu ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 50%;
+    font-size: 22px;
+    
+}
+.menu ul li:hover{
+    color: black;
+    background-color: darkred;
+    font-size: 30px;
+
+}
+.fondo{
+    width: 100%;
+    margin-top: -50px;
+    z-index: -10;
+    position: absolute;
+    height: 100%;
+}
+.bien{
+    font-size: 50px;
+    color:white;
+    padding-top: 12%;
+    padding-left: 30%;
+}
+.Noticias{
+    margin-left: 10px;
+    margin-top: 30%;
+
+}
+.noticia{
+    margin-left: 3%;
+    margin-bottom: 5%;
+    width: 30%;
+    justify-content: center;
+    height: 90%;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    border: 5px solid #BFBDBD
+}
+.aside{
+    
+ width: 25%;
+ margin-left: 74%;
+ margin-top: -42.7%;
+}
+.not1{
+    margin-left: 3%;
+    margin-bottom: 5%;
+    width: 85%;
+    justify-content: center;
+    height: 200%;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    border: 5px solid
+}
